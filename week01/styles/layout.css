@@ -17,7 +17,7 @@ header{
     grid-template-rows: 1fr 2fr ;
     align-items: center;
     color: #CCCCCC;
-    height: 16vh;
+    height: 20vh;
     padding: 20px;
     
 }
@@ -28,6 +28,8 @@ nav {
     font-size: 22px;
     height: 10vh;
     align-items: center;
+    margin-top: 60px;
+    
     
 }
 nav a {
