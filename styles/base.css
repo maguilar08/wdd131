@@ -82,9 +82,7 @@ main img{
     float: right;
 }
 */
-p{
-  
-}
+
 .card{
     grid-column: 1/2 ;
     max-width: 850px;
