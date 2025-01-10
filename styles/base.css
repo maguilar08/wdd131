@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantora+One&family=Nunito&display=swap');
+
+*{
+    text-decoration: none;
+    margin: 0;
+    
+}
+
+
+header{
+    background-color: #2A9D8F;
+    display:grid ;
+    align-items: center;
+    color: white;
+    height: 20vh;
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+    font-family: "Cantora One", " Helvetica", "sans-serif";
+    
+}
+nav {
+    background-color:#02304772;
+    display: flex;
+    justify-content: space-around;
+    font-size: 22px;
+    height: 10vh;
+    align-items: center;
+    margin-top: 39px;
+    font-family: "Nunito", " Helvetica", "sans-serif";
+
+    
+    
+}
+nav a {
+    color: white;
+    padding: 20px;
+}
+.nav :hover{
+    background-color:#F4A261;
+    color: white;
+}
+
+h2{
+   /* font-size: 22px;*/
+   background-color: #26465329;
+   color: #F4A261;
+   text-align: center;
+   padding: 8px;
+   border-radius: 0.5cap;
+   font-family: "Cantora One", " Helvetica", "sans-serif";
+   font-size: 1.5rem;
+}
+h3{
+   
+    border-bottom: solid rgba(38, 21, 12, 0.28);
+    margin-bottom: 15px;
+    text-align: center;
+    margin-right: 100px;
+    margin-left: 100px;
+    font-family: "Cantora One", " Helvetica", "sans-serif";
+    font-size: 1.5rem;
+    color: #2A9D8F;
+}
+    
+
+main{
+    background-color: white;
+    color: #264653;
+    padding: 20px;
+    display: grid;
+    margin: 0 auto;
+
+
+}
+/*
+main img{
+    width: 200px;
+    height: auto;
+    border-radius: 2cap;
+    padding:2px ;
+    float: right;
+}
+*/
+
+.card{
+    grid-column: 1/2 ;
+    max-width: 850px;
+    border: 3px solid rgba(0, 0, 0, .1);
+    border-radius: 1cap;
+    
+ 
+}
+.about{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+}
+.text1{
+    text-align: center;
+    align-content: center;
+    padding-left: 30px;
+    font-family: nunito;
+    font-size: 1.3rem;
+}
+
+.myphoto{
+    margin: 30px 30px 30px 60px;
+    border-radius: 1cap;
+}
+.mycity{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.flat{
+    margin: 30px 30px 30px 30px;
+    border-radius: 1cap;
+}
+.text2{
+    text-align: center;
+    align-content: center;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    font-family: nunito;
+    font-size: 1.3rem;
+} 
+.subtitle{
+    text-align: center;
+    align-content: center;
+    font-family: nunito;
+    font-size: 1.3rem;
+    color: #2A9D8F;
+} 
+    
+
+.card2{
+    grid-column: 2/3 ;
+    max-width: 1500px;
+    text-align:center;
+    border: 3px solid rgba(0, 0, 0, .1);
+    border-radius: 1cap;
+    font-family: nunito;
+    font-size: 1.3rem;
+   
+
+}
+.resources{
+   margin: 200px 50px;
+   text-decoration:underline;
+   
+}
+
+
+    
+    
+
+/*
+aside{
+    background-color: white;
+    grid-column: 3/4 ;
+    color: white;
+    padding: 20px;
+    
+    
+
+    
+}
+*/
+footer{
+    background-color:#2A9D8F;
+    color: white;
+    text-align: center;
+    padding:50px;
+    margin-top: 35px;
+    font-family: "Nunito", " Helvetica", "sans-serif";
+    font-size: 20PX;
+    
+    
+}
+.last{
+    align-content: center;
+}
+
