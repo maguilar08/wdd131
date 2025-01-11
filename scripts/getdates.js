@@ -8,3 +8,16 @@ function formatDate(date) {
     const seconds = String(date.getSeconds()).padStart(2, '0');
     return `${month}/${day}/${year}, ${hours}:${minutes}:${seconds}`;
 }
+
+// Get the last modification date of the document
+const lastModified = new Date(document.lastModified);
+
+// Format the date and time
+const formattedDate = formatDate(lastModified);
+
+// Display the formatted date and time in the paragraph with id "last-modified"
+document.getElementById('last-modified').innerText = `Last modification: ${formattedDate}`;
+
+const year = new Date().getFullYear();
+
+document.getElementById('currentyear').textContent = year;
