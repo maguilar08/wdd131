@@ -6,11 +6,9 @@
         grid-template-columns: 1fr 1fr ;
         width: 300px;
         align-items: center;
-    
     }
     img {
-        width:312px ;
-       
+        width:312px ; 
     }
 }
 
@@ -25,9 +23,6 @@
     }
     img {
         width: 300px;
-        
-
-       
     }
 }
 

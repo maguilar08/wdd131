@@ -15,7 +15,6 @@ header{
     padding: 20px;
     font-family: "Cantora One", " Helvetica", "sans-serif";
     align-items: center;
-    
 }
 
 nav {
@@ -39,10 +38,7 @@ a{
 
 main {
     padding: 50px;
-    text-align: center;
-    
-    
-    
+    text-align: center;  
 }
 
 h2 {
@@ -73,9 +69,7 @@ footer{
     text-align: center;
     margin-top: 35px;
     font-family: "Nunito", " Helvetica", "sans-serif";
-    
-    
-    
+    padding: 20px;
 }
 
     
