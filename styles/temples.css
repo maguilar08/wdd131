@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantora+One&family=Nunito&display=swap');
+
+*{
+    text-decoration: none;
+    margin: 0;   
+}
+
+
+
+header{
+    background-color:#2A9D8F;
+    display:grid ;
+    grid-template-columns: 1fr 2fr;
+    color: white;
+    padding: 20px;
+    font-family: "Cantora One", " Helvetica", "sans-serif";
+    align-items: center;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+ 
+    font-family: "Nunito", " Helvetica", "sans-serif";
+}
+
+.nav :hover{
+    background-color:#F4A261;
+    color: white;
+    border-radius: 30px;
+    padding: 20px;
+    
+}
+
+a{
+    color: white;
+}
+
+main {
+    padding: 50px;
+    text-align: center;
+    
+    
+    
+}
+
+h2 {
+    padding-bottom: 1cap;
+    color:#2A9D8F;
+    font-family: "Cantora One", " Helvetica", "sans-serif";
+     
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+img{
+    width: 100%;
+}
+
+.subtitle {
+    font-family: "Nunito", " Helvetica", "sans-serif";
+    color: #264653;
+}
+    
+
+footer{
+    background-color:#2A9D8F;
+    color: white;
+    text-align: center;
+    margin-top: 35px;
+    font-family: "Nunito", " Helvetica", "sans-serif";
+    
+    
+    
+}
+
+    
+
+    
+    
