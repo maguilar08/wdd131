@@ -16,6 +16,10 @@ header{
     font-family: "Cantora One", " Helvetica", "sans-serif";
     align-items: center;
 }
+#menu {
+    display: none; /* hide hamburger button */
+}
+
 
 nav {
     display: flex;

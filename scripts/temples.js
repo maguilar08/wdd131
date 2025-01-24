@@ -21,3 +21,14 @@ document.getElementById('last-modified').innerText = `Last modification: ${forma
 const year = new Date().getFullYear();
 
 document.getElementById('currentyear').textContent = year;
+
+
+
+// Ham Button
+const hamButton = document.querySelector('#menu');
+const navigation = document.querySelector('.nav');
+
+hamButton.addEventListener('click', () => {
+	navigation.classList.toggle('open');
+	hamButton.classList.toggle('open');
+});

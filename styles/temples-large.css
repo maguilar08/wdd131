@@ -13,7 +13,51 @@
 }
 
 @media screen and (max-width:400px) {
-   
+    
+    #menu {
+        display: block;
+        font-size: 1.5rem;
+        border: 0;
+        background-color: #2A9D8F;
+        color: white;
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+    }
+    #menu::before {
+        content: "☰";
+    }
+    
+    #menu.open::before {
+        content: "🔴";
+    }
+    .nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        list-style: none;
+        color: white;
+    }
+    
+    .nav a {
+        display: none;
+        padding: 1rem;
+        text-align: center;
+        text-decoration: none;
+        color: #fff;
+    }
+    .nav a:hover {
+        background-color: white;
+        color: 2;
+        font-weight: 700;
+        color: #2A9D8F;
+    }
+    
+    /* when the button is clicked - the open class is toggled (added/removed) */
+    .open a {
+        display: block;
+    }
+    
     .gallery{
         display: grid;
         grid-template-columns: 1fr ;
