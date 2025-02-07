@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantora+One&family=Nunito&display=swap');
+*{
+    margin: 0;
+}
+.hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  footer{
+    background-color:#F7C600;
+    color: #004183;
+    text-align: center;
+    margin-top: 35px;
+    font-family: "Nunito", " Helvetica", "sans-serif";
+    padding: 20px;
+}
+
+    
