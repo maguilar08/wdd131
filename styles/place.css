@@ -46,7 +46,7 @@ h2 {
 padding-bottom: 0.5rem;
 color: var(--secondary-color);
 font-family: "Cantora One", " Helvetica", "sans-serif";
-font-size: 4rem;
+font-size: 3rem;
 padding-bottom: 10px;
 }
 
@@ -58,7 +58,7 @@ ul {
 li {
   margin-bottom: 0.5rem;
   font-family: "Nunito", " Helvetica", "sans-serif";
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 .sunny{
@@ -72,6 +72,6 @@ footer{
   text-align: center;
   font-family: "Nunito", " Helvetica", "sans-serif";
   padding: 40px;
-  font-size: 2.3rem;
+  font-size: 1.5rem;
     
 }
