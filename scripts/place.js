@@ -21,3 +21,25 @@ document.getElementById('last-modified').innerText = `Last modification: ${forma
 const year = new Date().getFullYear();
 
 document.getElementById('currentyear').textContent = year;
+
+//-------------------------------------------------------------------------------------------
+
+//windChill
+
+function calculateWindChill(temp, windSpeed) {
+    if (temp <= 10 && windSpeed > 4.8) {
+        // Wind chill calculation formula for metric units
+        return (13.12 + 0.6215 * temp - 11.37 * Math.pow(windSpeed, 0.16) + 0.3965 * temp * Math.pow(windSpeed, 0.16)).toFixed(1);
+    } else {
+        return "N/A";
+    }
+}
+
+function updateWeatherDetails() {
+    const temp = 10; // Static temperature value (°C)
+    const windSpeed = 5; // Static wind speed value (km/h)
+
+    const windChillElement = document.getElementById("windChill");
+    windChillElement.textContent = calculateWindChill(temp, windSpeed);
+}
+updateWeatherDetails();

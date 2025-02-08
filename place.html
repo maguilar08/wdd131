@@ -8,20 +8,57 @@
     <meta name="author" content="Aguilar Copa Rene Marcelo">
     <link rel="stylesheet" href="styles/place.css">
     <link rel="stylesheet" href="styles/place-large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cantora+One&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
     <script defer src="scripts/place.js"></script>
 </head>
 <body>
+
+    <header>
+        <h1>Brazil</h1>
+    </header>
+
     <main>
+
         <div class="hero">
-            <picture>
-                <source media="(min-width:1000px)" srcset="images/rio-large.webp">
-                <img src="images/rio-small.webp" alt="Salt Lake Temple"  >
+            <picture >
+                <source media="(min-width:800px)" srcset="images/rio-large.webp">
+                <img class="heroimg" src="images/rio-small.webp" alt="Salt Lake Temple" width="1024" >
             </picture>
         </div>
+        
+        <div class="data">
+            <h2>Data</h2>
+            <ul>
+                <li><strong>Area:</strong> 8.515.767,049 sq km</li>
+                <li><strong>Population:</strong> 212.488,165</li>
+                <li><strong>Capital:</strong> Brasilia</li>
+                <li><strong>Languages:</strong> Portuguese</li>
+                <li><strong>Currency:</strong> Brazilian real</li>
+                <li><strong>Time Zone:</strong> GMT-3</li>
+                <li><strong>Calling Code:</strong> +55</li>
+                <li><strong>Internet TLD:</strong> .br</li>
+            </ul>
+        </div>
+
+        <div class="weather">
+            <h2>Weather</h2>
+            <img class="sunny" src="images/sunny.svg" alt="sunny" >
+            <ul>
+                <li><strong>Temperature:</strong> 22°C</li>
+                <li><strong>Conditions:</strong> Partly Cloudy</li>
+                <li><strong>Wind:</strong> 5 km/h</li>
+                <li><strong>Wind Chill:</strong> <span id="windChill">N/A</span></li>
+            </ul>
+        </div>
+
     </main>
+
     <footer>
         <p> ©🐱 <span id="currentyear"></span> Marcelo Aguilar🐱-Bolivia</p>
         <p  class="last" id="last-modified"></p>
     </footer>
+
 </body>
 </html>

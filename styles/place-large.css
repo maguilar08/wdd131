@@ -1,0 +1,58 @@
+@media screen and (min-width:800px) {
+
+    main{
+    display: grid;
+    }
+    .hero{
+    margin: 0;
+    position: relative;
+    background-color: var(--color);
+    }
+
+    h1{
+        font-size: 4rem;
+    }
+
+    h2{
+        font-size: 2rem;
+    }
+
+    .data, .weather {
+        background-color: rgba(255, 255, 255, 0.808);
+        border-radius: 8px;
+        border: 1px solid var(--primary-color);
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+        padding: 1rem;
+        position: absolute;
+    }
+
+    .data{
+        top: 10vw;
+        left: 5vw;
+    }
+
+    .weather{
+        display: flex;
+        flex-direction: column; /* Apila los elementos verticalmente */
+        align-items: center; /* Centra horizontalmente */
+        justify-content: center; /* Centra verticalmente */
+        top: 28vw;
+        left: 77vw;
+    }
+    
+    .sunny{
+        display: flex;
+        width: 100px;
+        justify-items: center;
+    }
+
+    li {
+        font-size: 1rem;
+    }
+    
+    footer{
+        padding: 20px;
+        font-size: 1rem;
+    }
+
+}
