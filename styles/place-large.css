@@ -1,12 +1,12 @@
 @media screen and (min-width:800px) {
 
     main{
-    display: grid;
+        display: grid;
     }
     .hero{
-    margin: 0;
-    position: relative;
-    background-color: var(--color);
+        margin: 0;
+        position: relative;
+        background-color: var(--color);
     }
 
     h1{
@@ -14,7 +14,6 @@
     }
     h1::after{
         content: "🌏";
-        
     }
 
     h2{
