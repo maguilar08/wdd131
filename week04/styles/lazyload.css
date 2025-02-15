@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0px;
+}
+  
+:root {
+    --primary-color: #F7C600;
+    --secondary-color: #004183;
+}  
+h1 {
+    text-align: center;
+}
+
+main {
+    margin: 0 auto;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+   width: 100%;
+   background: #000;
+   animation: fade 15s;
+}
+@keyframes fade{
+    0%  {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+
+}
+
+
+
+
+footer{
+    width: 400px;
+    margin: 0 auto;
+    background-color:var(--primary-color);
+    color: var(--secondary-color);
+    text-align: center;
+    font-family: "Nunito", " Helvetica", "sans-serif";
+    padding: 40px;
+    font-size: 1.5rem;
+
+      
+}
+  
