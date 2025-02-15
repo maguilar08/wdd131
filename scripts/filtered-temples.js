@@ -117,12 +117,12 @@ const temples = [
         "https://churchofjesuschristtemples.org/assets/img/temples/sao-paulo-brazil-temple/sao-paulo-brazil-temple-55945.jpg"
     },
     {
-        templeName:"Washington D.C.",
-        location:"Washington D.C.",
-        dedicated:"1974, November, 19",
-        area: 156558,
+        templeName:"Campinas Brazil",
+        location:"Campinas Brazil",
+        dedicated:"2002, May, 17",
+        area: 48100,
         imageUrl:
-        "https://churchofjesuschristtemples.org/assets/img/temples/washington-d.c.-temple/washington-d.c.-temple-29515.jpg"
+        "https://churchofjesuschristtemples.org/assets/img/temples/campinas-brazil-temple/campinas-brazil-temple-6003.jpg"
     },
     {
         templeName:"Salt Lake",
