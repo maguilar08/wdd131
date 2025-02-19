@@ -1,0 +1,38 @@
+* {
+    margin: 0% auto;
+    width: 700px;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 50px ;
+    font-family: "Cantora One";
+    font-size: 3rem;
+    color: #05668D;
+}
+
+h2{
+    font-family: "Cantora One";
+    color: #679436;
+    
+
+}
+
+p{
+    font-family: "Nunito";
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-bottom: 40px;
+}
+
+.mobile{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.large{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+}
