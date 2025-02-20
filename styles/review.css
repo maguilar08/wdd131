@@ -1,0 +1,24 @@
+*{
+  margin: 0 auto;
+}
+
+h1, footer {
+  text-align: center;
+  background-color: #2D032B;
+  color: #FDFDFD;
+  padding: 10px;
+  font-family: Nunito;
+  max-width: 400px;
+}
+main{
+  max-width: 400px;
+  font-family: Nunito;
+
+}
+h2{
+  text-align: center;
+  margin-top: 20px;
+}
+article p{
+  margin-top: 10px;
+}
