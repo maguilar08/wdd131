@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wayra Adventures</title>
+    <meta  name="description" content="Page that shows places to visit around Bolivia" >
+    <meta name="author" content="Aguilar Copa Rene Marcelo">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cantora+One&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/wayra-adventures.css">
+    <link rel="stylesheet" href="styles/wayra-adventure-large.css">
+    <script defer src="scripts/wayra-adventures.js"></script>
+</head>
+<body>
+    <header>
+        <img class="logo" src="images/LOGO.webp" alt="logo" loading="lazy">
+        <button id="menu"></button>
+        <nav class="hov">
+            <a href="home.html">Home</a>
+            <a href="cochabamba.html">Cochabamba</a>
+            <a href="potosi">Potosi</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <div class="hero">
+            <img src="images/cochabamba.webp" alt="logo">
+            <h1 class="titleline">Wayra Adventures</h1>
+        </div>
+        <div>
+           <p class="purpose">
+                Wayra Adventures, named after the Quechua word for "wind," is a travel platform that inspires 
+                exploration and discovery within the diverse landscapes of Bolivia. We guide adventurers to breathtaking
+                locations and hidden gems, offering curated destinations and expert advice on the optimal times to visit.
+                At wayra-adventures.com, travelers can plan unforgettable journeys, experiencing the best of Bolivia, from 
+                the Amazon rainforest to the Andes mountains.
+            </p> 
+        </div>
+        <div class="ofipict">
+            <figure>
+                <img class="ofipict1" src="images/salar.webp" alt="" loading="lazy">
+                <figcaption class="subtitle">Salar de Uyuni-Potosi</figcaption>
+            </figure>
+            <figure>
+                <img class="ofipict2" src="images/iphilla.webp"  alt="" loading="lazy">
+                <figcaption class="subtitle">Iphilla-Cochabamba</figcaption>
+            </figure>
+            <figure>
+                <img class="ofipict3" src="images/incallajta.webp" alt="" loading="lazy">
+                <figcaption class="subtitle">Incallajta-Cochabamba</figcaption>
+            </figure>
+            
+            
+            
+            
+        </div>
+        <div>
+            <h3 class="tlt">Cochabamba</h3>
+            <p class="ofering">Cochabamba, the "City of Eternal Spring," offers a blend of history, natural beauty, and delicious cuisine. Highlights include the ancient Inca site of Incallajta, the tranquil Corani Lake, and the towering Cristo de la Concordia statue. The vibrant Mercado La Pampa is perfect for exploring local crafts and fresh produce. Food lovers can indulge in Cochabamba's renowned dishes like "llajwa" (spicy salsa) and "pique macho" (a hearty meat dish), making it a must-visit destination for both culture and gastronomy.</p>
+            <h3 class="tlt">Potosi</h3>
+            <p class="ofering">Potosí, a city rich in history, is famous for Cerro Rico and its colonial architecture. Nearby, the stunning Salar de Uyuni, the world's largest salt flat, offers a surreal landscape. Potosí's UNESCO-listed center and local foods like "salteñas" add to its charm. It's a must-visit for history, culture, and natural beauty.</p>
+            <h3 class="tlt">Oruro</h3>
+            <p class="ofering">Oruro, known for its vibrant Carnaval and rich cultural heritage, is a destination full of history and natural beauty. Visitors can explore Sajama National Park and enjoy local dishes like "sopa de maní" and "anticuchos." With its unique traditions and stunning landscapes, Oruro is a must-visit for culture and adventure.</p>
+            <h3 class="tlt">Santa Cruz</h3>
+            <p class="ofering">Santa Cruz, Bolivia’s vibrant economic center, offers a blend of nature and culture. Highlights include the Noel Kempff Mercado National Park, Lomas de Arena, and the Fuerte de Samaipata ruins. The city’s biocenter, including the large zoo, showcases local wildlife. Santa Cruz is also famous for its delicious dishes like "majao" and "empanadas." With its diverse attractions and lively atmosphere, it's perfect for nature enthusiasts and cultural explorers alike.</p>
+           
+        </div>
+        <div class="contact">
+            <p>Newsletter</p>
+        </div>
+        <form>
+            <fieldset>
+                <div class="form-item column2"> 
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname">
+                </div>
+                <div class="form-item column2"> 
+                    <label for="useremail">Email:</label>
+                    <input type="email" id="useremail" name="useremail">
+                </div>
+            </fieldset>
+            <button type="submit">Sign Up</button>
+        </form>
+    </main>
+    <footer class="footer">
+        <div>
+            <p> ©🐱 <span id="currentyear"></span> Marcelo Aguilar🐱-Bolivia</p>
+            <p  class="last" id="last-modified"></p>
+            <p><span class="label">Number of Visits: </span><span class="visits"></span></p>
+        </div>
+    </footer>
+    
+</body>
+</html>

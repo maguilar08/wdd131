@@ -1,0 +1,89 @@
+:root {
+    --primary-color: #05668D;
+    --secondary-color: #DBF227;
+    --color: #679436;
+    --text-color: #333;
+    --background-color: #f5f5f5;
+  }
+@media screen and (max-width:576px) {
+    *{
+        margin: 0, auto;
+    }
+    #menu {
+        display: block;
+        font-size: 2rem;
+        border: 0;
+        background-color: transparent;
+        color: white;
+        font-weight: bold;
+        position: absolute;
+        right: 1rem;
+    }
+    #menu::before {
+        content: "☰";
+        color: var(--secondary-color);
+
+    }
+    
+    #menu.open::before {
+        content: "✖";
+
+    }
+    .hov {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        list-style: none;
+        color: white;
+    }
+    
+    .hov a {
+        display: none;
+        padding: 1rem;
+        text-align: center;
+        text-decoration: none;
+        color: var(--secondary-color);
+    }
+    .hov a:hover {
+        background-color: var(--secondary-color);
+        font-weight: 700;
+        color: var(--primary-color);
+    }
+    
+    /* when the button is clicked - the open class is toggled (added/removed) */
+    .open a {
+        display: block;
+    }
+    main{
+        
+    }
+    .ofipict{
+        display: grid;
+        grid-template-columns: 1fr ;
+        width: 300px;
+        
+    
+    }
+    img {
+        width: 300px;
+    }
+    h1, .contact {
+        font-size: 4rem;
+        text-align: center;
+    }
+    
+        
+    
+    .purpose, .ofering {
+        font-family: "Nunito", " Helvetica", "sans-serif";
+        color: #264653;
+        margin-left: 40px;
+        margin-right: 90px;
+        width: 400px;
+        font-size: 1.5rem;
+    }
+    form{
+        width: 300px;
+    }
+   
+}
