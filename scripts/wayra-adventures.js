@@ -55,3 +55,84 @@ document.getElementById('last-modified').innerText = `Last modification: ${forma
 const year = new Date().getFullYear();
 
 document.getElementById('currentyear').textContent = year;
+
+
+//----------------------------------Cochabamba----------------------------------------------//
+
+const temples = [
+    {
+      templeName: "Cristo de la Concordia",
+      location: "Cochabamba-Cercado",
+      about: "The largest statue of Christ",
+      imageUrl:
+      "https://i.ibb.co/35HP3G9x/cristo-Concordia.png"
+    },
+    {
+      templeName: "Agroflori",
+      location: "Cochabamba-Quillacollo",
+      about: "Bird sanctuary",
+      imageUrl:
+      "https://i.ibb.co/1tJw75bc/agroflori.png"
+    },
+    {
+      templeName: "Incallajta",
+      location: "Cochhabamba-Pocona",
+      about: "A massive Inca ruin in Bolivia.",
+      imageUrl:
+      "https://i.ibb.co/8LNpm7rf/Incallajta.png"
+    },
+    {
+      templeName: "Mesetas de Iphillas",
+      location: "Cochabamba",
+      about: "Stunning Bolivian highlands.",
+      
+      imageUrl:
+      "https://i.ibb.co/PvrtGtk6/iphilla-Mesetas.png"
+    },
+    {
+      templeName: "Laguna Alalay",
+      location: "Cochabamba-Cercado",
+      dedicated: "Cochabamba's urban oasis.",
+      imageUrl:
+      "https://i.ibb.co/DfMmg8jx/laguna-Alalay.png"
+    },
+    {
+      templeName: "Corani",
+      location: "Cochabamba-Corani",
+      about: "Peaceful Mountain Dam",
+      
+      imageUrl:
+      "https://i.ibb.co/XffXzp43/laguna-Corani.png"
+    }
+];
+
+createTempleCard(temples);
+
+function createTempleCard(filteredTemples){
+    document.querySelector(".gallery").innerHTML = "";
+    filteredTemples.forEach(temple => {
+        let card = document.createElement("section");
+        let name = document.createElement("h3");
+        let location = document.createElement("p");
+        let about = document.createElement("p");
+        let img = document.createElement("img");
+
+        name.textContent = temple.templeName;
+        location.innerHTML = `<span class="label">Location:</span> ${temple.location}`;
+        about.innerHTML = `<span class="label">About:</span> ${temple.about}`;
+        img.setAttribute("src", temple.imageUrl);
+        img.setAttribute("alt", `${temple.templeName} Temple`);
+        img.setAttribute("loading", "lazy");
+
+        card.appendChild(name);
+        card.appendChild(location);
+        card.appendChild(about);
+        card.appendChild(img);
+
+        document.querySelector(".gallery").appendChild(card);
+    });
+}
+    
+
+
+
